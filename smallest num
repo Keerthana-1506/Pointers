@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a = 15, b = 25;
+    int *p1 = &a;
+    int *p2 = &b;
+
+    if(*p1 < *p2)
+        printf("Smallest = %d", *p1);
+    else
+        printf("Smallest = %d", *p2);
+
+    return 0;
+}
