@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int var = 42;        // normal variable
+    int *ptr = &var;     // pointer storing address of var
+
+    printf("Value of var: %d\n", var);
+    printf("Address of var: %p\n", &var);
+    printf("Pointer ptr stores: %p\n", ptr);
+    printf("Value via pointer (*ptr): %d\n", *ptr);
+
+    return 0;
+}
